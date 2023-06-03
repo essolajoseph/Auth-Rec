@@ -10,12 +10,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac8b5082-0b47-4c68-bae5-aaf33799c722" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/acceuil.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/light-bootstrap-dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/apple-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/default-avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/full-screen-image-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/loading-bubbles.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/new_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/sidebar-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/sidebar-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/sidebar-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/sidebar-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/sidebar-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/tim_80x80.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tp308/EtudiantServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tp308/EtudiantServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/acceuil.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/acceuil.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/registation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/registation.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,11 +87,11 @@
       <recent name="C:\Users\DUMBRESH\Desktop\Tp308\Tp308\src\main\webapp\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DUMBRESH\IdeaProjects\Auth-Rec\src\main\webapp\image" />
       <recent name="C:\Users\DUMBRESH\IdeaProjects\Auth-Rec\src\main\webapp" />
       <recent name="C:\Users\DUMBRESH\IdeaProjects\Auth-Rec\src\main\webapp\css" />
       <recent name="C:\Users\DUMBRESH\Desktop\Tp308\Tp308\src\main\webapp" />
       <recent name="C:\Users\DUMBRESH\Desktop\Tp308\Tp308\src\main\webapp\WEB-INF" />
-      <recent name="C:\Users\DUMBRESH\IdeaProjects\Tp308\lib" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.7">
@@ -295,7 +306,7 @@
       <workItem from="1685753669163" duration="47000" />
       <workItem from="1685754302408" duration="41000" />
       <workItem from="1685754636486" duration="335000" />
-      <workItem from="1685755353793" duration="8191000" />
+      <workItem from="1685755353793" duration="18747000" />
     </task>
     <servers />
   </component>
