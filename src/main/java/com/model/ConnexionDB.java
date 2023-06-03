@@ -5,26 +5,15 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class ConnexionDB {
-    String url = "jdbc:mysql://localhost:3306/tp308";
-    String utilisateur = "root";
-    String motDePasse = "";
-    Connection connexion = null;
+    static final String DB_URL = "jdbc:mysql://localhost:3306/tp308";
+    static final String USER = "root";
+    static final String PASS = "";
 
-    public Connection getConnexion() {
-     try {
-         connexion = DriverManager.getConnection( url, utilisateur,motDePasse );
-     } catch (SQLException e) {
-         throw new RuntimeException(e);
-     }
-        return connexion;
-    }
+    public static Connection getConnection() throws SQLException {
+        // Enregistrement du pilote JDBC
 
-    public void closeConnexion() throws SQLException {
-        if(connexion!=null){
-            connexion.close();
-        }
-    }
-
-    public ConnexionDB(){
+        // Ouverture de la connexion
+        System.out.println("Connexion à la base de données...");
+        return DriverManager.getConnection(DB_URL, USER, PASS);
     }
 }

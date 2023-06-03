@@ -35,7 +35,7 @@ public class Etudiant {
         return prenom;
     }
 
-    public int getAge() {
+    public int getAge(int i) {
         return age;
     }
 

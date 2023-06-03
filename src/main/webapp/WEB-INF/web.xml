@@ -13,11 +13,11 @@
         <url-pattern>/EtudiantServlet</url-pattern>
     </servlet-mapping>
     <servlet>
-        <servlet-name>ClientServlet</servlet-name>
-        <servlet-class>com.example.tp308.ClientServlet</servlet-class>
+        <servlet-name>SaveEtudiantServlet</servlet-name>
+        <servlet-class>com.example.tp308.SaveEtudiantServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>ClientServlet</servlet-name>
-        <url-pattern>/ClientServlet</url-pattern>
+        <servlet-name>SaveEtudiantServlet</servlet-name>
+        <url-pattern>/SaveEtudiantServlet</url-pattern>
     </servlet-mapping>
 </web-app>

@@ -19,10 +19,18 @@ public class EtudiantServlet extends HttpServlet {
 
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String qr_code = request.getParameter("data");
+        String data = request.getParameter("data");
+        String[] mots = data.split(" ");
+        Etudiant etudiant=new Etudiant();
+        etudiant.setNom("essola");
+        etudiant.setPrenom("julien");
+        etudiant.setMatricule("20z2233");
+        etudiant.setAge(20);
+  
+
         response.setContentType("application/json");
         PrintWriter out = response.getWriter();
-        out.print("{\"status\":200,\"message\":\"Code QR validé avec succès\"}");
+        out.print("{\"status\":200,\"message\":\"Code QR validé avec succès\",\"data\":" + etudiant + "}");
         out.flush();
     }
 }

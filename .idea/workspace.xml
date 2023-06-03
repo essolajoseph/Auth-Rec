@@ -10,22 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac8b5082-0b47-4c68-bae5-aaf33799c722" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/apple-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/default-avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/full-screen-image-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/loading-bubbles.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/mask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/new_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/sidebar-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/sidebar-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/sidebar-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/sidebar-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/sidebar-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/tim_80x80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tp308/SaveEtudiantServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tp308/EtudiantServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tp308/EtudiantServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/acceuil.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/acceuil.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/model/ConnexionDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/model/ConnexionDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/model/Etudiant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/model/Etudiant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/registation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/registation.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -306,7 +297,7 @@
       <workItem from="1685753669163" duration="47000" />
       <workItem from="1685754302408" duration="41000" />
       <workItem from="1685754636486" duration="335000" />
-      <workItem from="1685755353793" duration="18747000" />
+      <workItem from="1685755353793" duration="26463000" />
     </task>
     <servers />
   </component>
