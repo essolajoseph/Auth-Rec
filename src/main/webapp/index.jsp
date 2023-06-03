@@ -57,9 +57,10 @@
                             </div>
 
                             <!-- Submit button -->
-                            <button type="submit" class="btn btn-primary btn-block mb-4">
+                            <a href="acceuil.jsp">  <button type="submit" class="btn btn-primary btn-block mb-4">
                                 Sign up
-                            </button>
+                            </button></a>
+                              <a href="acceuil.jsp"> aller a</a>
 
                             <!-- Register buttons -->
                             <div class="text-center">
