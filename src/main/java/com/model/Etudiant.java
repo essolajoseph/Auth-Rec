@@ -3,8 +3,10 @@ package com.model;
 public class Etudiant {
     private String nom;
     private String prenom;
-    private  int age;
+    private String date_naissance;
     private String matricule;
+    private String niveau;
+    private String filiere;
 
     public Etudiant() {}
 
@@ -19,9 +21,6 @@ public class Etudiant {
         this.prenom = prenom;
     }
 
-    public void setAge(int age) {
-        this.age = age;
-    }
 
     public void setMatricule(String matricule) {
         this.matricule = matricule;
@@ -35,8 +34,28 @@ public class Etudiant {
         return prenom;
     }
 
-    public int getAge(int i) {
-        return age;
+    public String getDate_naissance() {
+        return date_naissance;
+    }
+
+    public void setDate_naissance(String date_naissance) {
+        this.date_naissance = date_naissance;
+    }
+
+    public String getNiveau() {
+        return niveau;
+    }
+
+    public void setNiveau(String niveau) {
+        this.niveau = niveau;
+    }
+
+    public String getFiliere() {
+        return filiere;
+    }
+
+    public void setFiliere(String filiere) {
+        this.filiere = filiere;
     }
 
     public String getMatricule() {

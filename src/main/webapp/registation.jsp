@@ -7,8 +7,8 @@
 
 <head>
     <meta charset="utf-8" />
-    <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
-    <link rel="icon" type="image/png" href="../assets/img/favicon.ico">
+    <link rel="apple-touch-icon" sizes="76x76" href="image/apple-icon.png">
+    <link rel="icon" type="image/png" href="image/favicon.ico">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>Dashboard</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
@@ -182,7 +182,7 @@
 
                             </div>
                             <div class="card-body ">
-                                <div class="alert-success info" id="info" >
+                                <div  id="info" >
                                 <ol class="list-group">
                                     <li class="list-group-item" id="name">Premier élément</li>
                                     <li class="list-group-item" id="pre">Deuxième élément</li>
@@ -191,18 +191,20 @@
                                     <li class="list-group-item" id="niv">Deuxième élément</li>
                                     <li class="list-group-item" id="fil">Troisième élément</li>
                                 </ol>
-                                <form action="SaveEtudiantServlet" method="post" >
-                                    <input type="hidden" name="matricule" id="matricule">
-                                    <input type="hidden" name="niveau" id="niveau">
 
-                                    <button class="btn btn-light btn-purple">Mon bouton</button>
-
-                                </form>
                                 </div>
                                 <hr>
-                                <div class="stats">
-                                    <i class="fa fa-history"></i>
-                                </div>
+                                <form action="SaveEtudiantServlet" method="post" id="formSend">
+                                    <input type="hidden" name="nom" id="nom">
+                                    <input type="hidden" name="prenom" id="prenom">
+                                    <input type="hidden" name="matricule" id="matricule">
+                                    <input type="hidden" name="date_naissance" id="date_naissance">
+                                    <input type="hidden" name="filiere" id="filiere">
+                                    <input type="hidden" name="niveau" id="niveau">
+
+                                    <button type="submit" class="btn btn-primary">Inscrire l'etudiant </button>
+
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -250,6 +252,10 @@
 
 </body>
 <!--   Core JS Files   -->
+<script>
+    document.getElementById('info').style.display="none";
+    document.getElementById('formSend').style.display="none";
+</script>
 <script src="js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
 <script src="js/core/popper.min.js" type="text/javascript"></script>
 <script src="js/core/bootstrap.min.js" type="text/javascript"></script>
@@ -278,9 +284,7 @@
 <script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </script>
-<script>
-    document.getElementById('info').style.display="none";
-</script>
+
 <script>
     // $('#result').val('test');
     function onScanSuccess(decodedText, decodedResult) {
@@ -298,6 +302,7 @@
                 success: function(response) {
 
                     document.getElementById('info').style.display="block";
+                    document.getElementById('formSend').style.display="block";
                     console.log(response);
                     alert(response.message);
                         const nom = document.getElementById("name");
@@ -306,13 +311,21 @@
                         const niveau = document.getElementById("niv");
                         const filiere = document.getElementById("fil");
                         const date=document.getElementById("dn");
-                        let etudiant=response.data;
+                        //donner envoyer a la base de donnees
+                    let etudiant=response.data;
+                   document.getElementById("nom").value=etudiant.nom;
+                   document.getElementById("prenom").value=etudiant.prenom;
+                   document.getElementById("matricule").value=etudiant.matricule;
+                    document.getElementById("niveau").value=etudiant.niveau;
+                   document.getElementById("filiere").value=etudiant.filiere;
+                   document.getElementById("date_naissance").value=etudiant.date_naissance;
+
                         nom.innerHTML = "<strong>Nom :</strong> " + etudiant.nom;
                         prenom.innerHTML = "<strong>Prenom :</strong> " + etudiant.prenom;
                         matricule.innerHTML = "<strong>Matricule:</strong> " + etudiant.matricule;
                         niveau.innerHTML = "<strong>Niveau :</strong> " + etudiant.niveau;
                         filiere.innerHTML = "<strong>Filiere :</strong> " + etudiant.filiere;
-                        date.innerHTML = "<strong>Date Naissance :</strong> " + etudiant.prenom;
+                        date.innerHTML = "<strong>Date Naissance :</strong> " + etudiant.date_naissance;
 
                 },
                 error: function(error) {

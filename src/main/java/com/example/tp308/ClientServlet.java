@@ -28,7 +28,6 @@ public class ClientServlet extends HttpServlet {
         // Stockage des données dans un objet JavaBean
         Client client = new Client();
         client.setNumero(numero);
-        client.setPrenom(prenom);
         client.setNom(nom);
         clients.add(client);
         // Stockage de l'objet JavaBean dans l'objet request
