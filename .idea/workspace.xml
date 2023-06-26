@@ -10,7 +10,117 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac8b5082-0b47-4c68-bae5-aaf33799c722" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Tp308_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Tp308_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/templateLanguages.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jackson-core-2.12.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jakarta.servlet.jsp.jstl-3.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-j-8.0.31.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.30.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/protobuf-java-3.19.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tp308/ClientServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tp308/EtudiantServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tp308/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tp308/SaveEtudiantServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/model/Banque.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/model/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/model/Commande.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/model/Compte.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/model/ConnexionDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/model/Etudiant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/server.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/acceuil.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/client.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/commande.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/light-bootstrap-dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/material-design-iconic-font.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/nouislider.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/image/apple-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/image/default-avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/image/faces/face-0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/image/faces/face-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/image/faces/face-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/image/faces/face-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/image/faces/face-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/image/faces/face-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/image/faces/face-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/image/faces/face-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/image/faces/tim_vector.jpe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/image/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/image/full-screen-image-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/image/images/bank-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/image/images/bank-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/image/images/bank-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/image/images/bank-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/image/images/bank-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/image/images/bank-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/image/images/bank-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/image/images/bank-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/image/loading-bubbles.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/image/mask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/image/new_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/image/qrscanner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/image/sidebar-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/image/sidebar-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/image/sidebar-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/image/sidebar-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/image/sidebar-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/image/tim_80x80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/core/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/core/jquery.3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/core/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/light-bootstrap-dashboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/plugins/bootstrap-datepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/plugins/bootstrap-notify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/plugins/bootstrap-switch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/plugins/chartist.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/plugins/nouislider.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/zaraz/s.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/mysql-connector-j-8.0.31.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/vendor/jquery-steps/jquery.steps.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/vendor/jquery-validation/dist/additional-methods.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/vendor/jquery-validation/dist/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/vendor/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/vendor/minimalist-picker/dobpicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/vendor/nouislider/nouislider.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/vendor/wnumb/wNumb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/listClient.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/payement.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/registation.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/update.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vendor/jquery-steps/jquery.steps.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vendor/jquery-validation/dist/additional-methods.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vendor/jquery-validation/dist/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vendor/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vendor/minimalist-picker/dobpicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vendor/nouislider/nouislider.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vendor/wnumb/wNumb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/servlet/Test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +130,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -46,33 +156,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/DUMBRESH/Desktop/Tp308&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.29429734&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/DUMBRESH/IdeaProjects/Auth-Rec/Banquier",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.splitter.proportion": "0.29429734"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\DUMBRESH\Desktop\Tp308\Tp308\src\main\webapp\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\DUMBRESH\IdeaProjects\Auth-Rec\src\main\webapp" />
       <recent name="C:\Users\DUMBRESH\IdeaProjects\Auth-Rec\src\main\webapp\css" />
+      <recent name="C:\Users\DUMBRESH\IdeaProjects\Auth-Rec\src\main\webapp" />
       <recent name="C:\Users\DUMBRESH\IdeaProjects\Auth-Rec\src\main\webapp\js" />
       <recent name="C:\Users\DUMBRESH\IdeaProjects\Auth-Rec\src\main\webapp\image" />
       <recent name="C:\Users\DUMBRESH\IdeaProjects\Auth-Rec\src\main\webapp\lib" />
@@ -239,7 +349,15 @@
       <workItem from="1685974900919" duration="1582000" />
       <workItem from="1685984697688" duration="5758000" />
       <workItem from="1686062917640" duration="174000" />
-      <workItem from="1686130557093" duration="3566000" />
+      <workItem from="1686130557093" duration="10034000" />
+      <workItem from="1686180167032" duration="6527000" />
+      <workItem from="1686233128603" duration="4043000" />
+      <workItem from="1686238181085" duration="38000" />
+      <workItem from="1686287759814" duration="20942000" />
+      <workItem from="1686840666241" duration="35000" />
+      <workItem from="1687162646081" duration="1509000" />
+      <workItem from="1687170997801" duration="116000" />
+      <workItem from="1687752304212" duration="9208000" />
     </task>
     <servers />
   </component>
