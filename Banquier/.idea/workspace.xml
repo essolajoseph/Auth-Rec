@@ -9,119 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac8b5082-0b47-4c68-bae5-aaf33799c722" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/artifacts/Tp308_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/artifacts/Tp308_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/templateLanguages.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/webContexts.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lib/jackson-core-2.12.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lib/jakarta.servlet.jsp.jstl-3.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lib/mysql-connector-j-8.0.31.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lib/mysql-connector-java-8.0.30.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lib/protobuf-java-3.19.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/tp308/ClientServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/tp308/EtudiantServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/tp308/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/tp308/SaveEtudiantServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/model/Banque.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/model/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/model/Commande.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/model/Compte.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/model/ConnexionDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/model/Etudiant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/server.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/acceuil.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/client.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/commande.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/light-bootstrap-dashboard.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/material-design-iconic-font.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/nouislider.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/image/apple-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/image/default-avatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/image/faces/face-0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/image/faces/face-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/image/faces/face-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/image/faces/face-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/image/faces/face-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/image/faces/face-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/image/faces/face-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/image/faces/face-7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/image/faces/tim_vector.jpe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/image/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/image/full-screen-image-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/image/images/bank-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/image/images/bank-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/image/images/bank-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/image/images/bank-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/image/images/bank-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/image/images/bank-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/image/images/bank-7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/image/images/bank-8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/image/loading-bubbles.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/image/mask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/image/new_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/image/qrscanner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/image/sidebar-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/image/sidebar-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/image/sidebar-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/image/sidebar-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/image/sidebar-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/image/tim_80x80.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/core/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/core/jquery.3.2.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/core/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/light-bootstrap-dashboard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/plugins/bootstrap-datepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/plugins/bootstrap-notify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/plugins/bootstrap-switch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/plugins/chartist.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/plugins/nouislider.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/js/zaraz/s.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/lib/mysql-connector-j-8.0.31.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/lib/vendor/jquery-steps/jquery.steps.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/lib/vendor/jquery-validation/dist/additional-methods.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/lib/vendor/jquery-validation/dist/jquery.validate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/lib/vendor/jquery/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/lib/vendor/minimalist-picker/dobpicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/lib/vendor/nouislider/nouislider.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/lib/vendor/wnumb/wNumb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/listClient.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/payement.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/registation.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/update.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/vendor/jquery-steps/jquery.steps.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/vendor/jquery-validation/dist/additional-methods.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/vendor/jquery-validation/dist/jquery.validate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/vendor/jquery/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/vendor/minimalist-picker/dobpicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/vendor/nouislider/nouislider.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/vendor/wnumb/wNumb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/servlet/Test.java" beforeDir="false" />
-    </list>
+    <list default="true" id="ac8b5082-0b47-4c68-bae5-aaf33799c722" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -358,7 +246,7 @@
       <workItem from="1687162646081" duration="1509000" />
       <workItem from="1687170997801" duration="116000" />
       <workItem from="1687752304212" duration="8903000" />
-      <workItem from="1687806566573" duration="1840000" />
+      <workItem from="1687806566573" duration="3075000" />
     </task>
     <servers />
   </component>
