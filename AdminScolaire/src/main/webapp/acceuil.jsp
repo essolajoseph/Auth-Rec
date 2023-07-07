@@ -38,19 +38,14 @@ Tip 2: you can also add an image using data-image tag
       </div>
       <ul class="nav">
         <li class="nav-item active">
-          <a class="nav-link" href="dashboard.html">
+          <a class="nav-link" href="index.jsp">
             <i class="fa fa-home "></i>
             <p>Home</p>
           </a>
         </li>
+
         <li>
-          <a class="nav-link" href="./user.html">
-            <i class="fa fa-user"></i>
-            <p>User Profile</p>
-          </a>
-        </li>
-        <li>
-          <a class="nav-link" href="./table.html">
+          <a class="nav-link" href="table.jsp">
             <i class="fa fa-table" aria-hidden="true"></i>
 
             <p>Table List</p>
@@ -60,25 +55,6 @@ Tip 2: you can also add an image using data-image tag
           <a class="nav-link" href="registation.jsp">
             <i class="fas fa-user-graduate"></i>
             <p>Enroll student</p>
-          </a>
-        </li>
-        <li>
-          <a class="nav-link" href="./maps.html">
-            <i class="fa fa-map-marker"></i>
-
-            <p>Maps</p>
-          </a>
-        </li>
-        <li>
-          <a class="nav-link" href="./notifications.html">
-            <i class="fa fa-bell"></i>
-            <p>Notifications</p>
-          </a>
-        </li>
-        <li class="nav-item active active-pro">
-          <a class="nav-link active" href="upgrade.html">
-            <i class="nc-icon nc-alien-33"></i>
-            <p>Upgrade to PRO</p>
           </a>
         </li>
       </ul>

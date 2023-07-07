@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="hdiv.jstl.taglibs.1.2" type="repository">
+    <properties maven-id="org.hdiv:hdiv-jstl-taglibs-1.2:3.5.0" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/hdiv-jstl-taglibs-1.2-3.5.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hdiv-core-3.5.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.7.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

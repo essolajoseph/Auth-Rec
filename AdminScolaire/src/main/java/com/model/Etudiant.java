@@ -4,6 +4,8 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Etudiant {
     private String nom;
@@ -107,6 +109,32 @@ public class Etudiant {
             // Gestion des erreurs de connexion
             ex.printStackTrace();
         }
+    }
+
+    public  List<Etudiant> getAllEtudiants() {
+        List<Etudiant> etudiants = new ArrayList<>();
+        ConnexionDB connexionDB = new ConnexionDB();
+
+        try (Connection conn = connexionDB.getConnection()) {
+            String query = "SELECT * FROM etudiants";
+            PreparedStatement statement = conn.prepareStatement(query);
+            ResultSet resultSet = statement.executeQuery();
+
+            while (resultSet.next()) {
+                Etudiant etudiant = new Etudiant();
+                etudiant.setNom(resultSet.getString("nom"));
+                etudiant.setPrenom(resultSet.getString("prenom"));
+                etudiant.setDate_naissance(resultSet.getString("date_naissance"));
+                etudiant.setMatricule(resultSet.getString("matricule"));
+                etudiant.setNiveau(resultSet.getString("niveau"));
+                etudiant.setFiliere(resultSet.getString("filiere"));
+                etudiants.add(etudiant);
+            }
+        } catch (SQLException ex) {
+            ex.printStackTrace();
+        }
+
+        return etudiants;
     }
 }
 

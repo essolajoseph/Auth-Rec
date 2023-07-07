@@ -33,18 +33,18 @@
                    ">
                     <div class="card-body p-5 shadow-5 text-center" >
                         <h2 class="fw-bold mb-5">Sign up now</h2>
-                        <form>
+                        <form action="AdminServlet" method="post">
                             <!-- Email input -->
                             <div class="form-outline mb-4">
                                 <label class="form-label" for="form3Example3">Email address</label>
-                                <input type="email" id="form3Example3" class="form-control" />
+                                <input type="email" id="form3Example3" class="form-control"  name="email"/>
 
                             </div>
 
                             <!-- Password input -->
                             <div class="form-outline mb-4">
                                 <label class="form-label" for="form3Example4">Password</label>
-                                <input type="password" id="form3Example4" class="form-control" />
+                                <input type="password" id="form3Example4" class="form-control" name="password" />
 
                             </div>
 
@@ -57,10 +57,10 @@
                             </div>
 
                             <!-- Submit button -->
-                            <a href="acceuil.jsp">  <button type="submit" class="btn btn-primary btn-block mb-4">
+                            <a >  <button type="submit" class="btn btn-primary btn-block mb-4">
                                 Sign up
                             </button></a>
-                              <a href="acceuil.jsp"> aller a</a>
+
 
                             <!-- Register buttons -->
                             <div class="text-center">
