@@ -26,6 +26,7 @@ public class SaveEtudiantServlet extends HttpServlet {
         etudiant.setNiveau(request.getParameter("niveau"));
         etudiant.setDate_naissance(request.getParameter("date_naissance"));
         etudiant.save();
+        request.getRequestDispatcher("table.jsp").forward(request, response);
     }
     }
 

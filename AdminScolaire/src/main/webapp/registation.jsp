@@ -46,7 +46,7 @@
                     </a>
                 </li>
                 <li>
-                    <a class="nav-link" href="">
+                    <a class="nav-link" href="table.jsp">
                         <i class="fa fa-user"></i>
                         <p>List of Students</p>
                     </a>
