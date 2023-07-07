@@ -1,101 +1,95 @@
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>JSP - Hello World</title>
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <title>
+    Argon Dashboard 2 by Creative Tim
+  </title>
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+  <!-- Nucleo Icons -->
+  <link href="assets/css/nucleo-icons.css" rel="stylesheet" />
+  <link href="assets/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+  <link href="assets/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- CSS Files -->
+  <link id="pagestyle" href="assets/css/argon-dashboard.css?v=2.0.4" rel="stylesheet" />
 </head>
-<body>
 
-<!-- Section: Design Block -->
-<!-- Section: Design Block -->
-    <div class="container" style="  display: flex; /* Utilisation de Flexbox */
-  align-items: center; /* Centrage vertical */
-  justify-content: center; /* Centrage horizontal */
-  height: 100vh;
-  ">
-    <div class="card mx-4 mx-md-5 shadow-5-strong" style="
-          background: hsla(0, 0%, 100%, 0.8);
-          backdrop-filter: blur(30px);
-         background-color: #f8f9fa; /* Couleur de fond légèrement grise */
-          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
-           border: none;
-        ">
-    <!-- Jumbotron -->
-    <div class="container py-4">
-        <div class="row g-0 align-items-center">
-            <div class="col-lg-6 mb-5 mb-lg-0">
-                <div class="card cascading-right" style="
-                  background-color: rgba(0, 0, 0, 0.5);
-                   border: none;
-                   ">
-                    <div class="card-body p-5 shadow-5 text-center" >
-                        <h2 class="fw-bold mb-5">Sign up now</h2>
-                        <form>
-                            <!-- Email input -->
-                            <div class="form-outline mb-4">
-                                <label class="form-label" for="form3Example3">Email address</label>
-                                <input type="email" id="form3Example3" class="form-control" />
-
-                            </div>
-
-                            <!-- Password input -->
-                            <div class="form-outline mb-4">
-                                <label class="form-label" for="form3Example4">Password</label>
-                                <input type="password" id="form3Example4" class="form-control" />
-
-                            </div>
-
-                            <!-- Checkbox -->
-                            <div class="form-check d-flex justify-content-center mb-4">
-                                <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked />
-                                <label class="form-check-label" for="form2Example33">
-                                    Subscribe to our newsletter
-                                </label>
-                            </div>
-
-                            <!-- Submit button -->
-                            <a href="acceuil.jsp">  <button type="submit" class="btn btn-primary btn-block mb-4">
-                                Sign up
-                            </button></a>
-                              <a href="acceuil.jsp"> aller a</a>
-
-                            <!-- Register buttons -->
-                            <div class="text-center">
-                                <p>or sign up with:</p>
-                                <button type="button" class="btn btn-link btn-floating mx-1">
-                                    <i class="fab fa-facebook-f"></i>
-                                </button>
-
-                                <button type="button" class="btn btn-link btn-floating mx-1">
-                                    <i class="fab fa-google"></i>
-                                </button>
-
-                                <button type="button" class="btn btn-link btn-floating mx-1">
-                                    <i class="fab fa-twitter"></i>
-                                </button>
-
-                                <button type="button" class="btn btn-link btn-floating mx-1">
-                                    <i class="fab fa-github"></i>
-                                </button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
+<body class="">
+<main class="main-content  mt-0">
+  <section>
+    <div class="page-header min-vh-100">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-4 col-lg-5 col-md-7 d-flex flex-column mx-lg-0 mx-auto">
+            <div class="card card-plain">
+              <div class="card-header pb-0 text-start">
+                <h4 class="font-weight-bolder">Sign In</h4>
+                <p class="mb-0">Enter your email and password to sign in</p>
+              </div>
+              <div class="card-body">
+                <form role="form" action="BanquierServlet" method="post">
+                  <div class="mb-3">
+                    <input type="email" class="form-control form-control-lg" placeholder="Email" aria-label="Email" name="email">
+                  </div>
+                  <div class="mb-3">
+                    <input type="password" class="form-control form-control-lg" placeholder="Password" aria-label="Password" name="password">
+                  </div>
+                  <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="rememberMe">
+                    <label class="form-check-label" for="rememberMe">Remember me</label>
+                  </div>
+                  <div class="text-center">
+                    <button type="submit" class="btn btn-lg btn-primary btn-lg w-100 mt-4 mb-0">Sign in</button>
+                  </div>
+                </form>
+              </div>
+              <div class="card-footer text-center pt-0 px-lg-2 px-1">
+                <p class="mb-4 text-sm mx-auto">
+                  Don't have an account?
+                  <a href="javascript:;" class="text-primary text-gradient font-weight-bold">Sign up</a>
+                </p>
+              </div>
             </div>
-
-            <div class="col-lg-6 mb-5 mb-lg-0">
-                <img src="image/qrscanner.jpg" class="w-100 rounded-4 shadow-4"
-                     alt="" />
+          </div>
+          <div class="col-6 d-lg-flex d-none h-100 my-auto pe-0 position-absolute top-0 end-0 text-center justify-content-center flex-column">
+            <div class="position-relative bg-gradient-primary h-100 m-3 px-7 border-radius-lg d-flex flex-column justify-content-center overflow-hidden" style="background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-dashboard-pro/assets/img/signin-ill.jpg');
+          background-size: cover;">
+              <span class="mask bg-gradient-primary opacity-6"></span>
+              <h4 class="mt-5 text-white font-weight-bolder position-relative">"Attention is the new currency"</h4>
+              <p class="text-white position-relative">The more effortless the writing looks, the more effort the writer actually put into the process.</p>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-    </div>
-    </div>
-    <!-- Jumbotron -->
-<!-- Section: Design Block -->
+  </section>
+</main>
+<!--   Core JS Files   -->
+<script src="assets/js/core/popper.min.js"></script>
+<script src="assets/js/core/bootstrap.min.js"></script>
+<script src="assets/js/plugins/perfect-scrollbar.min.js"></script>
+<script src="assets/js/plugins/smooth-scrollbar.min.js"></script>
+<script>
+  var win = navigator.platform.indexOf('Win') > -1;
+  if (win && document.querySelector('#sidenav-scrollbar')) {
+    var options = {
+      damping: '0.5'
+    }
+    Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
+  }
+</script>
 
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<script src="assets/js/argon-dashboard.min.js?v=2.0.4"></script>
 </body>
+
 </html>

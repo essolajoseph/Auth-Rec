@@ -21,7 +21,7 @@ public class ClientServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         // Récupération des données du formulaire
-        java.lang.String nom = request.getParameter("nom");
+        String nom = request.getParameter("nom");
         String prenom = request.getParameter("prenom");
         String numero=request.getParameter("numero");
          List<Client> clients =new ArrayList<>();

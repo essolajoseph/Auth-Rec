@@ -18,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -55,7 +55,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/DUMBRESH/IdeaProjects/Auth-Rec/Banquier",
+    "last_opened_file_path": "C:/Users/DUMBRESH/IdeaProjects/Auth-Rec/AdminScolaire",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
@@ -66,14 +66,15 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DUMBRESH\IdeaProjects\Auth-Rec\Banquier\src\main\webapp" />
       <recent name="C:\Users\DUMBRESH\Desktop\Tp308\Tp308\src\main\webapp\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DUMBRESH\IdeaProjects\Auth-Rec\Banquier\src\main\webapp" />
       <recent name="C:\Users\DUMBRESH\IdeaProjects\Auth-Rec\src\main\webapp\css" />
       <recent name="C:\Users\DUMBRESH\IdeaProjects\Auth-Rec\src\main\webapp" />
       <recent name="C:\Users\DUMBRESH\IdeaProjects\Auth-Rec\src\main\webapp\js" />
       <recent name="C:\Users\DUMBRESH\IdeaProjects\Auth-Rec\src\main\webapp\image" />
-      <recent name="C:\Users\DUMBRESH\IdeaProjects\Auth-Rec\src\main\webapp\lib" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat">
@@ -247,6 +248,8 @@
       <workItem from="1687170997801" duration="116000" />
       <workItem from="1687752304212" duration="8903000" />
       <workItem from="1687806566573" duration="3075000" />
+      <workItem from="1688101431676" duration="4710000" />
+      <workItem from="1688686041711" duration="17377000" />
     </task>
     <servers />
   </component>
@@ -263,5 +266,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/pages/dashboard.jsp</url>
+          <line>403</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

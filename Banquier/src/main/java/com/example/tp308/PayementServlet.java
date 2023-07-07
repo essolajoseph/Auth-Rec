@@ -47,7 +47,7 @@ public class PayementServlet extends HttpServlet {
         payement.save(etudiant.getMatricule(), banquier.getEmail());
         //**********************************************************************************
         // traitement des informations
-        if(banquier.verif()==true){
+        if(banquier.verif(banquier.getEmail(),banquier.getPassword())==true){
 
             QRCodeGenerator qrCodeGenerator = new QRCodeGenerator();
             InputStream qrCodeInputStream = null;
@@ -70,6 +70,9 @@ public class PayementServlet extends HttpServlet {
             request.setAttribute("banquier",banquier);
             request.setAttribute("payement",payement);
             request.getRequestDispatcher("recu.jsp").forward(request, response);
+        }
+        else{
+            request.getRequestDispatcher("index.jsp").forward(request, response);
         }
 
     }

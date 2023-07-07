@@ -28,6 +28,14 @@
         <servlet-name>PayementServlet</servlet-name>
         <url-pattern>/PayementServlet</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>BanquierServlet</servlet-name>
+        <servlet-class>com.example.tp308.BanquierServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BanquierServlet</servlet-name>
+        <url-pattern>/BanquierServlet</url-pattern>
+    </servlet-mapping>
 
 
 </web-app>
